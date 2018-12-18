@@ -1,60 +1,56 @@
 # Themes
 
-There are currently three themes available. Copy [Vue](//vuejs.org) and [buble](//buble.surge.sh) website custom theme and [@liril-net](https://github.com/liril-net) contribution to the theme of the black style.
+### Defaults
+
+A minimalistic theme containing only the default values used by all other
+themes. This theme is intended to serve as the most basic starting point for a
+customized theme.
+
+<a href="#" data-link-title="Defaults">Preview</a> |
+[Source](https://github.com/jhildenbiddle/docsify-themeable/tree/master/src/scss/themes/defaults)
 
 ```html
-<link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
-<link rel="stylesheet" href="//unpkg.com/docsify/themes/buble.css">
-<link rel="stylesheet" href="//unpkg.com/docsify/themes/dark.css">
-<link rel="stylesheet" href="//unpkg.com/docsify/themes/pure.css">
+<!-- Theme: Defaults -->
+<link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-defaults.css">
 ```
 
-!> Compressed files are available in `/lib/themes/`.
+<figure class="thumbnails">
+    <img src="assets/img/theme-defaults-cover.png" alt="Screenshot of coverpage" title="Cover page">
+    <img src="assets/img/theme-defaults-content.png" alt="Screenshot of content" title="Content">
+</figure>
+
+### Simple
+
+A clean, versatile theme featuring a light color scheme with vibrant accents, a [system font stack](https://css-tricks.com/snippets/css/system-font-stack/), a gradient
+background cover page, and visual indicators for drop-menus and expand/collapse
+state.
+
+<a href="#" data-link-title="Simple">Preview</a> |
+[Source](https://github.com/jhildenbiddle/docsify-themeable/tree/master/src/scss/themes/theme-simple.scss)
 
 ```html
-<!-- compressed -->
-
-<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css">
-<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/dark.css">
-<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/pure.css">
+<!-- Theme: Simple -->
+<link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css">
 ```
 
-If you have any ideas or would like to develop a new theme, you are welcome to submit a [pull request](https://github.com/docsifyjs/docsify/pulls).
+<figure class="thumbnails">
+    <img src="assets/img/theme-simple-cover.png" alt="Screenshot of coverpage" title="Cover page">
+    <img src="assets/img/theme-simple-content.png" alt="Screenshot of content" title="Content">
+</figure>
 
-#### Click to preview
+### Simple Dark
 
-<div class="demo-theme-preview">
-  <a data-theme="vue">vue.css</a>
-  <a data-theme="buble">buble.css</a>
-  <a data-theme="dark">dark.css</a>
-  <a data-theme="pure">pure.css</a>
-</div>
+A modified version of the Simple theme featuring a dark color scheme.
 
-<style>
-  .demo-theme-preview a {
-    padding-right: 10px;
-  }
+<a href="#" data-link-title="Simple Dark">Preview</a> |
+[Source](https://github.com/jhildenbiddle/docsify-themeable/tree/master/src/scss/themes/theme-simple-dark.scss)
 
-  .demo-theme-preview a:hover {
-    cursor: pointer;
-    text-decoration: underline;
-  }
-</style>
+```html
+<!-- Theme: Simple Dark -->
+<link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css">
+```
 
-<script>
-  var preview = Docsify.dom.find('.demo-theme-preview');
-  var themes = Docsify.dom.findAll('[rel="stylesheet"]');
-
-  preview.onclick = function (e) {
-    var title = e.target.getAttribute('data-theme')
-
-    themes.forEach(function (theme) {
-      theme.disabled = theme.title !== title
-    });
-  };
-</script>
-
-## Other themes
-
-- [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/) A delightfully simple theme system for docsify.
+<figure class="thumbnails">
+    <img src="assets/img/theme-simple-dark-cover.png" alt="Screenshot of coverpage" title="Cover page">
+    <img src="assets/img/theme-simple-dark-content.png" alt="Screenshot of content" title="Content">
+</figure>

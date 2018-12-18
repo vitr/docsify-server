@@ -4,41 +4,19 @@
 
 # Heading 1 {docsify-ignore}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus
-nulla eu ex varius, a varius elit tincidunt. Aenean arcu magna, gravida id purus
-a, interdum convallis turpis. Aenean id ipsum eu tortor sollicitudin scelerisque
-in quis elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus nulla eu ex varius, a varius elit tincidunt. Aenean arcu magna, gravida id purus a, interdum convallis turpis. Aenean id ipsum eu tortor sollicitudin scelerisque in quis elit.
 
 ## Heading 2 {docsify-ignore}
 
-Vestibulum lobortis laoreet nunc vel vulputate. In et augue non lectus
-pellentesque molestie et ac justo. Sed sed turpis ut diam gravida sagittis nec
-at neque. Vivamus id tellus est. Nam ac dignissim mi. Vestibulum nec sem
-convallis, condimentum augue at, commodo diam.
+Vestibulum lobortis laoreet nunc vel vulputate. In et augue non lectus pellentesque molestie et ac justo. Sed sed turpis ut diam gravida sagittis nec at neque. Vivamus id tellus est. Nam ac dignissim mi. Vestibulum nec sem convallis, condimentum augue at, commodo diam.
 
 ### Heading 3 {docsify-ignore}
 
-Suspendisse sit amet tincidunt nibh, ac interdum velit. Ut orci diam, dignissim
-at enim sit amet, placerat rutrum magna. Mauris consectetur nibh eget sem
-feugiat, sit amet congue quam laoreet. Curabitur sed massa metus.
+Suspendisse sit amet tincidunt nibh, ac interdum velit. Ut orci diam, dignissim at enim sit amet, placerat rutrum magna. Mauris consectetur nibh eget sem feugiat, sit amet congue quam laoreet. Curabitur sed massa metus.
 
 #### Heading 4 {docsify-ignore}
 
-Donec odio orci, facilisis ac vehicula in, vestibulum ut urna. Ut bibendum
-ullamcorper risus, ac euismod leo maximus sed. In pulvinar sagittis rutrum.
-Morbi quis cursus diam. Cras ac laoreet nulla, rhoncus sodales dui.
-
-##### Heading 5 {docsify-ignore}
-
-Commodo sit veniam nulla cillum labore ullamco aliquip quis. Consequat nulla
-fugiat consequat ex duis proident. Adipisicing excepteur tempor exercitation ad.
-Consectetur voluptate Lorem sint elit exercitation ullamco dolor.
-
-###### Heading 6 {docsify-ignore}
-
-Ipsum ea amet dolore mollit incididunt fugiat nulla laboris est sint voluptate.
-Ex culpa id amet ipsum amet pariatur ipsum officia sit laborum irure ullamco
-deserunt. Consequat qui tempor occaecat nostrud proident.
+Donec odio orci, facilisis ac vehicula in, vestibulum ut urna. Ut bibendum ullamcorper risus, ac euismod leo maximus sed. In pulvinar sagittis rutrum. Morbi quis cursus diam. Cras ac laoreet nulla, rhoncus sodales dui.
 
 ## Text
 
@@ -78,31 +56,23 @@ This is <sup>superscript</sup>
 
 ## Lists
 
-**Ordered Lists**
-
-1. Ordered 1
-1. Ordered 2
-   1. Ordered 2a
-   1. Ordered 2b
-   1. Ordered 2c
-1. Ordered 3
-
 **Unordered Lists**
 
 - Unordered 1
 - Unordered 2
-  - Unordered 2a
-  - Unordered 2b
-  - Unordered 2c
 - Unordered 3
+    - Unordered 3-1
+    - Unordered 3-2
+    - Unordered 3-3
 
-**Task Lists**
+**Ordered Lists**
 
-- [x] Task 1
-- [ ] Task 2
-  - [x] Subtask A
-  - [ ] Subtask B
-- [ ] Task 3
+1. Ordered 1
+1. Ordered 2
+1. Ordered 3
+    1. Ordered 3-1
+    1. Ordered 3-2
+    1. Ordered 3-3
 
 ## Blockquotes
 
@@ -113,15 +83,22 @@ This is <sup>superscript</sup>
 >
 > *- Quote Source*
 
+## Notices
+
+!> Important with `inline code`
+
+?> Tip with `inline code`
+
 ## Code
 
 This is `inline code`
 
 ```javascript
-const add   = (num1, num2) => num1 + num2;
-const total = add(1, 2);
+const foo = 1;
+const bar = 2;
+const add = (num1, num2) => num1 + num2;
 
-console.log(total); // 3
+console.log(add(foo, bar));
 ```
 
 ```html
@@ -130,35 +107,6 @@ console.log(total); // 3
 </body>
 ```
 
-## Notices
-
-!> **Important** notice with `inline code` and additional placeholder text used
-to force the content to wrap and span multiple lines.
-
-?> **Tip** notice with `inline code` and additional placeholder text used to
-force the content to wrap and span multiple lines.
-
-## Tabs
-
-Tabs provided via the
-[docsify-tabs](https://jhildenbiddle.github.io/docsify-tabs) plugin.
-
-<!-- tabs:start -->
-
-#### **English**
-
-Hello!
-
-#### **French**
-
-Bonjour!
-
-#### **Italian**
-
-Ciao!
-
-<!-- tabs:end -->
-
 ## Tables
 
 | Left Align | Center Align | Right Align | Non&#8209;Breaking&nbsp;Header |
@@ -166,54 +114,6 @@ Ciao!
 | A1         | A2           | A3          | A4                             |
 | B1         | B2           | B3          | B4                             |
 | C1         | C2           | C3          | C4                             |
-
-## Keyboard
-
-<kbd>&uarr;</kbd> Arrow Up
-
-<kbd>&darr;</kbd> Arrow Down
-
-<kbd>&larr;</kbd> Arrow Left
-
-<kbd>&rarr;</kbd> Arrow Right
-
-<kbd>&#8682;</kbd> Caps Lock
-
-<kbd>&#8984;</kbd> Command
-
-<kbd>&#8963;</kbd> Control
-
-<kbd>&#9003;</kbd> Delete
-
-<kbd>&#8998;</kbd> Delete (Forward)
-
-<kbd>&#8600;</kbd> End
-
-<kbd>&#8996;</kbd> Enter
-
-<kbd>&#9099;</kbd> Escape
-
-<kbd>&#8598;</kbd> Home
-
-<kbd>&#8670;</kbd> Page Up
-
-<kbd>&#8671;</kbd> Page Down
-
-<kbd>&#8997;</kbd> Option, Alt
-
-<kbd>&#8629;</kbd> Return
-
-<kbd>&#8679;</kbd> Shift
-
-<kbd>&#9251;</kbd> Space
-
-<kbd>&#8677;</kbd> Tab
-
-<kbd>&#8676;</kbd> Tab + Shift
-
-## Horizontal Rule
-
----
 
 ## Images
 
@@ -1117,3 +1017,53 @@ A complete list is available here: [Emoji Cheat Sheet](https://www.webpagefx.com
 :small_red_triangle:
 :small_red_triangle_down:
 :shipit:
+
+## Keyboard
+
+<kbd>&uarr;</kbd> Arrow Up
+
+<kbd>&darr;</kbd> Arrow Down
+
+<kbd>&larr;</kbd> Arrow Left
+
+<kbd>&rarr;</kbd> Arrow Right
+
+<kbd>&#8682;</kbd> Caps Lock
+
+<kbd>&#8984;</kbd> Command
+
+<kbd>&#8963;</kbd> Control
+
+<kbd>&#9003;</kbd> Delete
+
+<kbd>&#8998;</kbd> Delete (Forward)
+
+<kbd>&#8600;</kbd> End
+
+<kbd>&#8996;</kbd> Enter
+
+<kbd>&#9099;</kbd> Escape
+
+<kbd>&#8598;</kbd> Home
+
+<kbd>&#8670;</kbd> Page Up
+
+<kbd>&#8671;</kbd> Page Down
+
+<kbd>&#8997;</kbd> Option, Alt
+
+<kbd>&#8629;</kbd> Return
+
+<kbd>&#8679;</kbd> Shift
+
+<kbd>&#9251;</kbd> Space
+
+<kbd>&#8677;</kbd> Tab
+
+<kbd>&#8676;</kbd> Tab + Shift
+
+## Misc
+
+**Horizontal Rule**
+
+---
