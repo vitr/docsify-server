@@ -7,6 +7,6 @@ services:
       - "8000:8000"
     volumes:
       - ./docs:/docs
-    environment:
-      - USER=user
-      - PASSWORD=password
+#    environment:
+#      - USER=user
+#      - PASSWORD=password
